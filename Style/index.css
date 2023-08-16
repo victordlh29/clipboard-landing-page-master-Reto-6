@@ -1,0 +1,288 @@
+:root {
+    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Light-Blue: hsl(233, 100%, 69%);
+    --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+    --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+p {
+    line-height: 30px;
+    color: var(--Grayish-Blue);
+}
+
+h1,
+h3,
+h4,
+h6 {
+    color: var(--Dark-Grayish-Blue);
+}
+
+/* first-section */
+.light {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: flex-end;
+    background: url("../image/backgraund/bg-header-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.light button {
+    height: 36px;
+    width: 36px;
+    border-radius: 100%;
+    margin: 30px;
+    background: none;
+    border-color: #f5f6f8;
+    cursor: pointer;
+}
+
+.first-section {
+    width: 100%;
+    height: 600px;
+}
+
+.content-text-first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.content-text-first-section h1 {
+    line-height: 80px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -12%;
+}
+
+.content-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.content-button button {
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 30px;
+    
+}
+
+.btn {
+    color: white;
+    background-color: var(--Strong-Cyan);
+    border-color: var(--Strong-Cyan);
+    cursor: pointer;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2), 0px 8px 8px rgba(26, 187, 156, 0.2);
+}
+
+.btn-2 {
+    color: white;
+    background-color: var(--Light-Blue);
+    border-color: var(--Light-Blue);
+    cursor: pointer;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2), 0px 8px 8px rgba(103, 204, 255, 0.2);
+}
+
+/* second-section */
+.second-section {
+    width: 100%;
+    height: 900px;
+}
+
+.content-text-second-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content-text-second-section h1 {
+    line-height: 50px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#computer {
+    margin-top: 50px;
+    margin-left: -9%;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+}
+
+.text {
+    margin: 20px;
+}
+
+.content-text h3 {
+    line-height: 64px;
+
+}
+
+/* thrid-section */
+.third-section {
+    width: 100%;
+    height: 770px;
+    margin-top: 80px;
+}
+
+.content-text-third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#ilustration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+/* four-section */
+.fuor-section {
+    width: 100%;
+    height: 770px;
+    margin-bottom: -15%;
+}
+
+.fuor-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 50px;
+}
+
+.text-1 {
+    height: 134px;
+}
+
+.text-1 img {
+    height: 30px;
+}
+
+.fuor-text h1 {
+    line-height: 35px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.row h3 {
+    line-height: 50px;
+}
+
+
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 80px;
+}
+
+/* * five-section * */
+.five-section {
+    width: 100%;
+    height: 600px;
+    margin-top: -1%;
+}
+
+footer {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    background: #f5f6f8;
+    align-items: center;
+    justify-content: center;
+    margin-top: -12%;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.colum-1 {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.colum-1 h6 {
+    line-height: 30px;
+    cursor: pointer;
+}
+
+h6:hover {
+    color: var(--Strong-Cyan);
+}
+
+.colum-2 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colum-2 span {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.colum-2 span:hover {
+    color: var(--Strong-Cyan);
+
+}
+
+.ilustracion-7 img {
+    width: 40px;
+    height: 40px;
+}
+
+#miFooter.fondo-cambiado {
+    background-color: black;
+}
+
+#miFooter h6:hover {
+    /* Estilos para el estado hover */
+    color: var(--Strong-Cyan) !important;
+}
