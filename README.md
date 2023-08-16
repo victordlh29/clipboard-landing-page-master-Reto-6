@@ -41,8 +41,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/clipboardlandingpagemaster-u1Pfd_it5f)
-- Live Site URL: [Add live site URL here](https://reto-6-phi.vercel.app/)
+- Solution URL: [Here](https://www.frontendmentor.io/solutions/clipboardlandingpagemaster-u1Pfd_it5f)
+- Live Site URL: [Here](https://reto-6-phi.vercel.app/)
 
 ## My process
 
